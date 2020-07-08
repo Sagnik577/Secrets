@@ -39,7 +39,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-mongoose.connect("mongodb+srv://admin-ayan:"+process.env.MONGO_PD+"@ayans.pb3xa.mongodb.net/userDB", {
+mongoose.connect("mongodb+srv://admin-ayan:"+process.env.MONGO_PD+"@ayans.pb3xa.mongodb.net/db_name", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
